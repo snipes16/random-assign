@@ -1,0 +1,57 @@
+import random
+
+cave1, cave2, cave3, cave4 = random.sample(range(1, 5),4)
+
+print('cave1 = ' + str(cave1))
+print('cave2 = ' + str(cave2))
+print('cave3 = ' + str(cave3))
+print('cave4 = ' + str(cave4))
+
+gold, silver, coins, dragon = random.sample(range(1, 5),4)
+
+print('\ngold = ' + str(gold))
+print('silver = ' + str(silver))
+print('coins = ' + str(coins))
+print('dragon = ' + str(dragon))
+
+if cave1 == gold:
+    cave1 = 'Gold'
+elif cave1 == silver:
+    cave1 = 'Silver'
+elif cave1 == coins:
+    cave1 = 'Coins'
+else:
+    cave1 = 'Dragon'
+
+if cave2 == gold:
+    cave2 = 'Gold'
+elif cave2 == silver:
+    cave2 = 'Silver'
+elif cave2 == coins:
+    cave2 = 'Coins'
+else:
+    cave2 = 'Dragon'
+
+if cave3 == gold:
+    cave3 = 'Gold'
+elif cave3 == silver:
+    cave3 = 'Silver'
+elif cave3 == coins:
+    cave3 = 'Coins'
+else:
+    cave3 = 'Dragon'
+
+if cave4 == gold:
+    cave4 = 'Gold'
+elif cave4 == silver:
+    cave4 = 'Silver'
+elif cave4 == coins:
+    cave4 = 'Coins'
+else:
+    cave4 = 'Dragon'
+
+
+print('\nCave 1 contains ' + cave1)
+print('Cave 2 contains ' + cave2)
+print('Cave 3 contains ' + cave3)
+print('Cave 4 contains ' + cave4)
